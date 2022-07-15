@@ -1,0 +1,114 @@
+
+
+img{
+    max-width: 100%;
+}
+
+.col>img{
+    width: 100%;
+}
+/* .gallery{
+    background-color: #dbdbf1;
+} */
+
+.col{
+    border: 3px solid #616106;
+    background-color: #dadacd;
+    cursor: pointer;
+}
+.col:hover{
+    opacity: 0.6;
+}
+
+.car-info{
+    background-color: black;
+    padding: 1rem;
+}
+
+ul>li{
+    list-style: none;
+    color: rgb(206, 138, 10);
+}
+
+ul>span{
+    color: aquamarine;
+    
+}
+
+ul>span>a{
+    color: rgb(9, 214, 9);
+}
+
+ul>span>a:hover{
+    color: rgb(219, 10, 10);
+}
+.addCart{
+    float: right;
+}
+
+
+.nav-item{
+    padding-left: 2rem;
+   
+    
+}
+
+.nav-link{
+    color: rgba(255, 217, 0, 0.564);
+}
+
+.logo{
+    padding-right: 3rem;
+}
+
+.search{
+    width: 50%;
+}
+
+.hero-content{
+    background-color: #122322;
+    color: rgba(218, 165, 32, 0.711);
+    width: 50%;
+    padding: 1rem;
+}
+
+.carousel{
+    width: 50%;
+    height: 30vh;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .search{
+        width: 100%;
+        
+    }
+
+    .hero{
+        display: none;
+    }
+    
+}
+
+@media (max-width:991px) {
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .search{
+        width: 100%;
+        margin-left: 2rem;
+    }
+    
+}
+
+#gallery-modal .modal-img{
+    width: 100%;
+}
+
+.navbar-toggler-icon{
+    color: #dadacd;
+}
