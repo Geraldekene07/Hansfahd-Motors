@@ -1,26 +1,13 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+
+/* Home */
+.Home{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.667), rgba(255, 0, 0, 0.761), tomato);
+    height: 100vh;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-}
-
-.grid-item{
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.grid-item img{
-    width: 25%;
-    
-
+.Home-content{
+    width: 50%;
+    color: aliceblue;
 }
 
