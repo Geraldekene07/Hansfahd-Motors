@@ -1,6 +1,8 @@
 html,
 body {
   height: 100%;
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.667) 30%, tomato);
+    height: 90vh;
 }
 
 .form2-wrapper{
@@ -40,3 +42,13 @@ svg{
     margin-left: 7.5rem; ;
     width: 50px;
 }
+
+.sign-up-link{
+  text-decoration: none;
+  color: tomato;
+}
+
+.sign-up-link:hover{
+  color: rgba(255, 105, 180, 0.71);
+}
+
