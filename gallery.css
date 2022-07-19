@@ -59,7 +59,7 @@ ul>span>a:hover{
 }
 
 .nav-link:hover{
-    text-decoration: 3px solid red underline;
+    background-color: rgba(223, 14, 56, 0.827);
 }
 
 .logo{
@@ -101,6 +101,7 @@ ul>span>a:hover{
     }
     
 }
+
 
 @media (max-width:991px) {
     .logo{
