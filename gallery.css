@@ -89,15 +89,11 @@ ul>span>a:hover{
 }
 
 /* Media Query */
-
-
-
-
 @media (max-width: 576px) {
     .search{
         width: 100%;
-        
     }
+
     
 }
 
