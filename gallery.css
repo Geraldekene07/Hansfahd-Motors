@@ -1,6 +1,5 @@
 body{
     background-image: linear-gradient(to right,rgba(0, 0, 0, 0.667) 30%, tomato);
-    height: 90vh;
 }
 
 img{
@@ -90,14 +89,14 @@ ul>span>a:hover{
 }
 
 /* Media Query */
+
+
+
+
 @media (max-width: 576px) {
     .search{
         width: 100%;
         
-    }
-
-    .hero{
-        display: none;
     }
     
 }

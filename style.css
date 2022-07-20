@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(to right,rgba(0, 0, 0, 0.667) 30%, tomato);
-    height: 90vh;
 }
 
 .Home-content{
@@ -59,6 +58,12 @@
 
 
 @media (max-width:678px) {
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
     .Home{
         display: flex;
         flex-direction:column-reverse;
@@ -89,7 +94,7 @@
         font-size: 2rem;
     }
 
-    .btn{
+    .get-started{
         width: 90%;
     }
 
@@ -107,5 +112,42 @@
 .main-img{
     height: 200px;
 }
+
+}
+
+@media (max-width:339px) {
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+
+    .Home{
+        padding-bottom: 1rem;
+    }
+
+    .Home-content{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .Home-content h1{
+        font-size: 1rem;
+    }
+
+    .get-started{
+        width: 90%;
+    }
+
+    .navbar-toggler{
+        display: block;
+        float: left;
+        margin-top: 1rem;
+    }
+
+    .logo{
+        display: none;
+    }
 
 }
