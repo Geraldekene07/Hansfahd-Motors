@@ -51,3 +51,39 @@ svg{
   color: rgba(255, 105, 180, 0.71);
 }
 
+@media (max-width:339px) {
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+
+    .Home{
+        padding-bottom: 1rem;
+    }
+
+    .Home-content{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .Home-content h1{
+        font-size: 1rem;
+    }
+
+    .get-started{
+        width: 90%;
+    }
+
+    .navbar-toggler{
+        display: block;
+        float: left;
+        margin-top: 1rem;
+    }
+
+    .logo{
+        display: none;
+    }
+
+}

@@ -69,6 +69,11 @@ ul>span>a:hover{
     width: 50%;
 }
 
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+
 .hero-content{
     color: rgba(218, 165, 32, 0.711);
     width: 50%;
@@ -88,11 +93,53 @@ ul>span>a:hover{
     color: #dadacd;
 }
 
+
+
 /* Media Query */
+@media (max-width:339px) {
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+
+    .Home{
+        padding-bottom: 1rem;
+    }
+
+    .Home-content{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .Home-content h1{
+        font-size: 1rem;
+    }
+
+    .get-started{
+        width: 90%;
+    }
+
+    .navbar-toggler{
+        display: block;
+        float: left;
+        margin-top: 1rem;
+    }
+
+    .logo{
+        display: none;
+    }
+
+}
+
+
 @media (max-width: 576px) {
     .search{
         width: 100%;
     }
+
+
 
     
 }
@@ -107,6 +154,22 @@ ul>span>a:hover{
         width: 100%;
         margin-left: 2rem;
     }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-content{
+    color: rgba(218, 165, 32, 0.711);
+    width: 100%;
+    padding: 1rem;
+}
+
+.carousel{
+    width: 100%;
+    height: 30vh;
+}
     
 }
 
