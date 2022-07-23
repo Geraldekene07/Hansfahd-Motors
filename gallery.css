@@ -72,6 +72,8 @@ ul>span>a:hover{
 .hero{
     display: flex;
     flex-direction: row;
+    margin-bottom: 1rem;
+    /* border-bottom: .5rem solid rgba(0, 0, 0, 0.807); */
 }
 
 .hero-content{
@@ -81,9 +83,11 @@ ul>span>a:hover{
 }
 
 .carousel{
-    width: 50%;
+    width: 100%;
     height: 30vh;
 }
+
+
 
 #gallery-modal .modal-img{
     width: 100%;
