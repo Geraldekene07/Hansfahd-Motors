@@ -53,6 +53,10 @@ ul>span>a:hover{
     
 }
 
+nav{
+    display: none;
+}
+
 .nav-link{
     color: rgba(255, 217, 0, 0.564);
 }
@@ -73,7 +77,6 @@ ul>span>a:hover{
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
-    /* border-bottom: .5rem solid rgba(0, 0, 0, 0.807); */
 }
 
 .hero-content{
