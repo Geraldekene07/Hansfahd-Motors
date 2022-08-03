@@ -101,6 +101,11 @@ nav{
 }
 
 
+.offcanvas{
+    /* background: linear-gradient(to right, #910534a9, #dba945); */
+    height: 30vh;
+}
+
 
 /* Media Query */
 @media (max-width:339px) {
