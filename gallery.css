@@ -102,10 +102,18 @@ nav{
 
 
 .offcanvas{
-    /* background: linear-gradient(to right, #910534a9, #dba945); */
     height: 30vh;
 }
 
+@media (max-width:568px) {
+    .offcanvas{
+        height: 29vh;
+    }
+}
+
+.canvas-msg{
+    font-family:'Tahoma' ;
+}
 
 /* Media Query */
 @media (max-width:339px) {
