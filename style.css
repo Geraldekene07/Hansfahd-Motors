@@ -4,7 +4,7 @@
 .Home{
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.667) 30%, tomato);
+    background-color: linear-gradient(to right,rgba(0, 0, 0, 0.667) 30%, tomato);
 }
 
 .Home-content{
