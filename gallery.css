@@ -153,6 +153,13 @@ nav{
 
 }
 
+@media (max-width:398px) {
+    .Back{
+        display: none;
+    }
+    
+}
+
 
 @media (max-width: 576px) {
     .search{
