@@ -1,3 +1,39 @@
+.notif-icon, .user{
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+}
+
+.notif-icon, .user:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.notif-icon{
+    position: relative;
+}
+
+.notif-icon-badge{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+    left: -10px;
+}
+
+.notif-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /* Home */
@@ -63,6 +99,9 @@
         padding: 0;
         margin: 0;
     }
+
+    
+
 
     .Home{
         display: flex;
@@ -151,4 +190,38 @@
         display: none;
     }
 
+}
+
+@media (max-width: 991px) {
+
+    .user{
+    width: 30px;
+    display: none;
+    border-radius: 50%;
+}
+    .user2{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+
+.notif-wrapper{
+    display: none;   
+}
+    
+}
+
+@media (min-width: 991px) {
+    
+    .user2{
+    display: none;
+}
+
+.user{
+    margin-right: 1rem;
+}
+
+    
 }
