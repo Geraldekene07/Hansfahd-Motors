@@ -8,13 +8,22 @@ document.addEventListener("click", function (e) {
 });
 
 
-const result = document.querySelectorAll(".notif-icon-badge");
-
-const myOrders = document.querySelector(".addItem");
-
-myOrders.addEventListener("click", (initialValue) => {
-    initialValue = 0;
-  result.innerHTML = initialValue ++;
-});
+let result = document.querySelectorAll("notif-icon-badge");
+const addItems = document.getElementById("BOTTON").addEventListener('click', orderedItems);
 
 
+
+// let orderedItems = (function () {
+//     let itemNum = 0;
+//     return function () {
+//          itemNum += 1;
+//         return itemNum
+//     }
+// })();
+
+function orderedItems() {
+        let itemNum = 0;
+        return (console.log((itemNum += 1)));
+    // console.log(e);
+
+}

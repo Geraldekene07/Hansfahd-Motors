@@ -103,7 +103,7 @@
   <div class="modal-dialog modal-dialog-centered modal-md">
     <div class="modal-content">
       <div class="modal-header">
-
+          <h3 class="text-warning"><span class="text-dark">Model:</span> Lorem XYZ 2021 <br><span class="text-dark">Condition:</span> Foreign use.</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -111,7 +111,7 @@
       </div>
       <div class="modal-footer ">
         <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
-        <button id="addItem"  type="submit"  class="btn btn-dark" >Add to cart<img class="ps-2" src="./images/icons8-shopping-cart.gif" width="10%" alt=""></button>
+        <button id="addItem"  type="button"  class="btn btn-dark" >Add to cart<img class="ps-2" src="./images/icons8-shopping-cart.gif" width="10%" alt=""></button>
       </div>
     </div>
   </div>
@@ -119,15 +119,15 @@
 
 
 
-
+<!-- Product added -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
-    <h3 id="offcanvasRightLabel" class=" canvas-msg text-dark">Product added to cart <img class="ps-2" src="./images/icons8-shopping-cart.gif" width="10%" alt=""></h3>
+    <h3 id="offcanvasRightLabel" class=" canvas-msg text-dark">Product added to cart <img class="ps-2" src="./images/icons8-shopping-cart.gif" width="10%" alt="cartImg"></h3>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <p class="text-warning">what do you want to do next?</p>
-        <a href="./gallery.html" class="Back btn btn-outline-secondary ms-2">Back</a>
+    <p class="text-secondary">what do you want to do next?</p>
+        <!-- <a href="./gallery.html" class="Back btn btn-outline-secondary ms-2">Back</a> -->
     <a href="#" class="btn btn-outline-secondary">View cart</a>
     <a href="./index.html" class="btn btn-outline-secondary ms-2">Checkout</a>
     
@@ -150,6 +150,7 @@
                     <li>Transmition: Automatic</li>
                     <li>ondition: UK used</li>
                      <span>Price: N20M</span>
+                     <button id="BOTTON">click</button>
                      <span class="addCart pe-3 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><a id="addItem" href="#">Add +</a></span>
                 </ul>
             </div>
@@ -310,7 +311,7 @@
   </div>
 
   <!-- Footer Section -->
-  <section class="footer-section pt-3 bg-dark text-center mt-5 sticky-top" style="padding-bottom: 0.5px;">
+  <section class="footer-section pt-3 bg-dark text-center mt-5 " style="padding-bottom: 0.5px;">
       <div class="container">
         <div>
           <a href="https://github.com/Blard-omu" target="_blank" class="text-decoration-none">
